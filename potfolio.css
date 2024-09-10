@@ -1,0 +1,116 @@
+body {
+    background-color: #235347;
+  }
+
+p {
+margin: 0;
+font-family: "Roboto", system-ui;
+font-weight: 500;
+font-style: normal;
+}
+
+/* navigation bar */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    margin: 20px 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #daf1de;
+  }
+
+  .home {
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 300px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", system-ui;
+  }
+
+  .home:hover {
+    color: rgb(172, 166, 166);
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .navbar-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .navbar-actual-elements {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 300px;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .navbar-actual-elements:hover {
+    color: rgb(172, 166, 166);
+  }
+
+  /* description */
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+  .name {
+    font-size: 80px;
+    color: #69d3b8;
+  }
+
+  .interest {
+    font-size: 25px;
+    font-weight: bold;
+    color: #b1eedf;
+  }
+
+  .skill-box p {
+    margin-top: 20px;
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+  }
+
+  .skill-front, .skill-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #b1eedf;
+  }
+
+  .image-container{
+    margin-left: 10px;
+    margin-right: 30px;
+  }
+
+  .myself{
+    border-radius: 50%;
+
+  }
+
+  .contact{
+    margin-top: 20px;
+    color: rgb(184, 179, 179);
+    font-size: 20px;
+  }
+
+  .contact-container{
+    background-color: white;
+    margin: auto;
+    max-width: fit-content;
+
+  }
